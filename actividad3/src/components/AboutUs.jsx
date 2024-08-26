@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-function ClubInfo() {
+function AboutUs() {
   return (
     <motion.section
       className="py-16"
@@ -40,4 +40,4 @@ function ClubInfo() {
   );
 }
 
-export default ClubInfo;
+export default AboutUs;

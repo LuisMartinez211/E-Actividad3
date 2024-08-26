@@ -1,16 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import AppRoutes from './AppRoutes';
 import Header from './components/Header';
-import Footer from './components/Footer';
+
+import HeroSection from './components/HeroSection';
+import AboutUs from './components/AboutUs';
+
 
 function App() {
   return (
-    <Router>
+    <div className="App">
+      {/* Header Section */}
       <Header />
-      <AppRoutes />
-      <Footer />
-    </Router>
+
+      {/* Hero Section */}
+      <main>
+        <HeroSection />
+
+        {/* About Us Section */}
+         <section id="about-us">
+         <AboutUs />
+        </section>
+
+      </main>
+    </div>
   );
 }
 

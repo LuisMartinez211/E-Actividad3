@@ -4,7 +4,7 @@ import Programs from './Programs';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
 
-function LandingPage() {
+function HeroSection() {
   return (
     <div>
       <Header />
@@ -15,4 +15,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default HeroSection;

@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.size-logo {
+    height: 130px;
+}
+
+.menu-link {
+content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #EF792B; 
+  transition: width 0.3s;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+  }
